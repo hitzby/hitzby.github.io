@@ -1,4 +1,4 @@
-/* Noimpty blog visual layer â€” kept outside the theme package for safe upgrades. */
+/* Noimpty blog visual layer â€? kept outside the theme package for safe upgrades. */
 :root {
   --noimpty-accent: #e95978;
   --noimpty-accent-soft: #ff91a8;
@@ -391,4 +391,9 @@ a {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
   }
+}
+/* ²à±ßÀ¸±êÇ©Í³Ò»×ÖºÅ */
+#aside-content .card-tag-cloud a {
+  font-size: 1rem !important;
+  line-height: 1.8;
 }
