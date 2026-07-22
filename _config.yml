@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Noimpty 的赛博空间
+title: Noimpty 的个人空间
 subtitle: '记录学习，也记录生活'
-description: '记录设计与编程的学习思考，也收藏生活里的碎碎念'
+description: '记录学习过程和想法，也存放生活中的碎碎念'
 keywords: [Noimpty, 学习笔记, 设计, 编程, 问题复盘, 生活记录]
 author: Noimpty
 language: zh-CN
@@ -68,7 +68,19 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  Study: study
+  GAMES101: games101
+  UE5: ue5
+  竞赛: competition
+  Ideas: ideas
+  Life: life
 tag_map:
+  Study: study
+  GAMES101: games101
+  UE5: ue5
+  竞赛: competition
+  Ideas: ideas
+  Life: life
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta

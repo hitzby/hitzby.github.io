@@ -3,10 +3,13 @@ title: 我的第一篇博客
 date: 2026-05-30 16:43:03
 description: 大家好，这里是 Noimpty 的个人空间，欢迎来到我的博客。
 categories:
-  - 生活
+  - Life
 tags:
+  - Life
   - 博客
   - 碎碎念
+privacy: protected
+private_section: Life
 cover: /img/cover-pink.svg
 ---
 大家好，这里是 Noimpty 的个人空间，欢迎 😄

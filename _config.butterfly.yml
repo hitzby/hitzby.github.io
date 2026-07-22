@@ -19,6 +19,9 @@ nav:
 
 menu:
   首页: / || fas fa-home
+  Study: /study/ || fas fa-graduation-cap
+  Ideas: /ideas/ || fas fa-lightbulb
+  Life: /life/ || fas fa-heart
   归档: /archives/ || fas fa-box-archive
   分类: /categories/ || fas fa-folder-open
   标签: /tags/ || fas fa-tags
@@ -295,7 +298,7 @@ aside:
       link: https://github.com/hitzby
   card_announcement:
     enable: true
-    content: "这里记录设计与编程的学习笔记、问题复盘，也收留一些生活碎碎念。"
+    content: "记录自己的图形学GAMES101和UE5的学习过程和思考，以及自己的ideas，同时还有自己的生活琐事。博客正在建设中，后续还会添加新的内容，敬请期待……"
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -991,7 +994,7 @@ note:
 
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   # Exclude the specified pages from pjax, such as '/music/'
   exclude:
     # - /xxxxxx/
@@ -1066,8 +1069,15 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css">
+    - <link rel="stylesheet" href="/css/sections.css">
+    - <link rel="stylesheet" href="/css/related-posts.css">
+    - <link rel="stylesheet" href="/css/music-player.css">
+    - <script src="/js/protected-manifest.js"></script>
+    - <script src="/js/privacy-gate.js"></script>
+    - <script src="/js/section-hub.js"></script>
   bottom:
-    # - <script src="xxxx"></script>
+    - <script src="/js/toc-sync.js"></script>
+    - <script src="/js/music-player.js"></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work

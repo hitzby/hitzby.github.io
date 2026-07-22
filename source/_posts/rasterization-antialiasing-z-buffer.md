@@ -3,8 +3,9 @@ title: 从标准立方体到屏幕：光栅化、抗锯齿与 Z-Buffer
 date: 2026-07-16 18:08:16
 description: 整理视口变换、三角形光栅化、采样与混叠、MSAA 抗锯齿以及 Z-Buffer 深度测试的基本原理。
 categories:
-  - 学习
+  - [Study, GAMES101]
 tags:
+  - Study
   - GAMES101
   - 计算机图形学
   - 光栅化

@@ -3,8 +3,9 @@ title: 从齐次坐标到 MVP 变换：GAMES101 学习笔记
 date: 2026-07-15 13:53:20
 description: 整理二维与三维变换、齐次坐标，以及 Model、View、Projection 变换的基本原理。
 categories:
-  - 学习
+  - [Study, GAMES101]
 tags:
+  - Study
   - 计算机图形学
   - GAMES101
   - MVP 变换
